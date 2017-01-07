@@ -1,0 +1,5 @@
+@mixin element-list {
+	margin-left: 50px;
+	list-style-type: lower-alpha;
+	border: $c-border;
+}
