@@ -237,17 +237,17 @@ address a:hover{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;	
-	background-color: #1ac056;
+	background-color: $button_color;
 	float: right;
 	}
 	input[type] {
-    background-color: #2b4a64;
+    background-color: $input_bg_color;
     color: white;
 	border: 0px;
 	padding: 10px;
 	}
 	textarea{
-	background-color: #2b4a64;
+	background-color: $input_bg_color;
     color: white;
 	border: 0px;
 	width: 100%;
@@ -258,9 +258,7 @@ address a:hover{
 }
 
 input{
-	width: 100%;
-	height: 30px;
-	margin: 10px;
+	@include input_param;
 }
 
 
@@ -277,11 +275,13 @@ input{
 	text-align: center;
 	margin-right: 20px;
 	margin-top: 5%;
-}
-.icons a:hover{
+
+	a:hover{
 	background-color: #fff;
 	color: #2b4a64;
+	}
 }
+
 .icons a:visited { 
     color: #fff;
 	}

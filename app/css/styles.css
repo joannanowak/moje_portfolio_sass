@@ -225,10 +225,9 @@ input {
   text-align: center;
   margin-right: 20px;
   margin-top: 5%; }
-
-.icons a:hover {
-  background-color: #fff;
-  color: #2b4a64; }
+  .icons a a:hover {
+    background-color: #fff;
+    color: #2b4a64; }
 
 .icons a:visited {
   color: #fff; }
